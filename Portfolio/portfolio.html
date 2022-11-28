@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta lang="fr">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Anaïs Goh">
+	<link rel="stylesheet" href="portfolio.css">
+	<script src="https://kit.fontawesome.com/9e200d756d.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js">
+		
+	</script>
+	
+
+
+	<title>Anaïs Goh - Portfolio</title>
+</head>
+<body>
+
+	<header>
+		<a href="https://www.linkedin.com/in/anais-goh-72090a207/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+		<nav>
+            
+			<a href="#accueil">Accueil</a>  
+			<a href="#apropos"> A Propos</a>  
+			<a href="#contact">Contact</a> 
+			
+      
+
+		</nav>
+
+	</header>
+
+	<section id="accueil">
+		<h1> Anaïs Goh</h1>
+		<br><br>
+
+
+		<div> <h2 id="apropos">A Propos </h2>
+			<p id="para">Bonjour,
+				je m'apppelle Anaïs Goh actuellement en formation chez WebForce3 à Paris (75004),
+				filière Développement web & mobile.
+				Je suis curieuse d'apprendre de nouvelle chose,determinée et créative.
+				Ayant eu un baccalauréat en science et technologie du Design et Arts Appliqués (STD2A). J'ai un attrait particulier pour le Design.
+
+			</p>
+		</div>
+
+</section>
+	<br><br>
+
+	<img id="banniere" src="img/banniere.png" alt="banniere" img>    
+
+<section id="contact">
+
+	<div> <h3>Contactez moi</h3>          
+		                                                  
+	<br><br>
+     
+                <form>
+                <label for="name">Nom</label>                                      
+                <br><br>
+                 <input type="text" id="name">                                                        
+                 <br><br>
+                <label for="tel">Téléphone</label>
+                <br><br>
+                 <input id="tel" type="tel" minlength="10" maxlength="10" pattern="[0-9]{10}">
+                 <br><br>
+                 <label for="email">Mail</label>
+                 <br><br>
+                 <input id="email" type="email">
+                 <br><br>
+                 <label>Message</label>
+                 <br><br>
+                 <textarea></textarea>
+                 <br><br>
+                 <input type="submit" value="Envoyer !" class="envoyer"> 
+                </form>  
+                  
+				
+   </div>     
+            
+</section>
+
+
+  <select id="villes">
+             	<option disabled selected>sélectionner une ville</option>
+             	<option value="paris"> Paris</option>
+             	<option value="nantes">Nantes</option>
+             	<option value="nice">Nice</option>
+             	<option value="lyon"> Lyon</option>
+             	<option value="marseille">Marseille</option>
+             	<option value="montpellier">Montpellier</option>
+             	<option value="toulouse">Toulouse</option>
+             	<option value="strasbourg">Strasbourg</option>
+             	<option value="bordeaux">Bordeaux</option>
+             	<option value="lille">Lille</option>
+             	
+
+             </select>
+             <p id="meteo"></p>
+             <p id="description"></p>
+             <img id="icon">
+
+
+<footer>
+	
+ <p>Copyright &copy;Anaïs Goh 2022 </p>
+</footer>
+
+
+	<script src="script.js"></script>
+
+
+</body>
+</html>

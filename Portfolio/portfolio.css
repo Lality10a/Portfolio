@@ -1,0 +1,106 @@
+*{margin: 0px;
+	padding:0px;
+	overflow-x: hidden;
+	}
+
+
+
+body { background-color: #a77df0;
+
+
+
+}
+
+
+header {  position: block;
+		      top: 0;
+		      left: 0;
+		      width: 100%;
+
+         
+         background-color: #3b3a39;
+
+ }
+ .fa-brands {
+ 	font-size: 30px;
+ 	padding-left: 5px;
+ 	color: white;
+
+ }
+ nav { 
+  float: right;
+ 	display: flex;
+
+
+ }
+
+ header nav a   {
+ 	font-family: 'Oswald', sans-serif;
+ 	text-transform: uppercase;
+ 	color: #ffffff;
+ 	text-decoration: none;
+ 	padding: 25px 20px;
+ 	   
+ 	   
+ }
+
+ section {
+ 	font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+ 	
+
+ }
+
+h1 { text-align: center;
+ 	  font-family: 'Oswald', sans-serif;
+ 	  font-weight: lighter;
+
+ 	  font-size: 40px;
+
+
+ }
+
+ div { border: 5px solid black;
+       margin: 5px;
+ }
+
+ h2#apropos {
+ 	text-align: center;
+    text-decoration: underline;
+ 	font-size: 20px;
+ 
+ }
+ p#para {
+ 	text-decoration: none;
+ 	font-size: 15px;
+ }
+ img#banniere  { 
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin: 0 auto;
+	
+	
+}
+
+ section#contact {
+ 	height: 756px;
+ 	width: 1050px;
+ 	margin: 3px;
+ 	padding: 5px;
+
+ }
+
+
+ input,textarea { 
+ 	border: 3px solid black;
+
+ }
+
+
+
+ footer {
+ 	background-color: #3b3a39;
+ 	text-align: center;
+ 	color: white;
+ }
